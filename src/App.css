@@ -1,0 +1,20 @@
+.products{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  width:100%;
+  /* height:20px */
+}
+.card{
+  width:25%;
+  padding:16px;
+  border-radius:10px;
+  box-shadow:5px 5px 10px gray;
+}
+/* style is not direcly applied eventhough the style is applied for a class in which the img element presents ..thats why we have to manually apply the style for image*/
+.card img{
+  width:100%;
+  height:250px;
+  object-fit:contain;
+
+}
